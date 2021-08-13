@@ -14,6 +14,7 @@ function Routes() {
   return (
     <Router>
       <div className={styles.container}>
+        <p>Test</p>
         <Suspense>
           <Switch>
             {ROUTES.map(({ redirectTo, path, ...config }) => (
